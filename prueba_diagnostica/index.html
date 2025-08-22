@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de presentación</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <img src="images\Jonatan.png" alt="Jonatan profile picture">
+        <h1>Jonatan Santiago Vergara Birminghan</h1>
+        <p><em>Estudiante universitario en la <strong><a href="https://utp.ac.pa/">Universidad Tegnológica de
+                        Panamá</a></strong></em></p>
+        <p>Soy programador en formación, me gustan los videojuegos y adoro el café.</p>
+        <ol>
+            <li>Programar: <a href="https://github.com/Arthurink"><Strong>GitHub</Strong></a></li>
+            <li>Escuchar música: <a
+                    href="https://open.spotify.com/user/12141172684?si=7f1b3d51fad944ee&nd=1"><strong>Spotify</strong></a>
+            </li>
+            <li>Jugar Videojuegos</li>
+        </ol>
+        <p>Contacto: tu@email.com</p>
+        <button id="toggleBtn">Mostrar más</button>
+        <p id="extraInfo" style="display:none; margin-top:1rem;">
+            Me interesa el desarrollo web y aprender nuevos lenguajes de programación. Disfruto colaborar en proyectos y compartir conocimientos con otros estudiantes.
+        </p>
+    </div>
+    <script>
+        const btn = document.getElementById('toggleBtn');
+        const extra = document.getElementById('extraInfo');
+        btn.addEventListener('click', function() {
+            if (extra.style.display === 'none') {
+                extra.style.display = 'block';
+                btn.textContent = 'Mostrar menos';
+            } else {
+                extra.style.display = 'none';
+                btn.textContent = 'Mostrar más';
+            }
+        });
+    </script>
+</body>
+
+</html>

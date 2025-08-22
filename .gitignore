@@ -1,0 +1,16 @@
+# Archivos de sistema operativo Mac
+.DS_Store
+
+# Directorio de Node.js
+node_modules/
+
+# Archivos de configuración de editores (ej. VS Code)
+.vscode/
+
+# Archivos temporales y de compilación
+*.log
+dist/
+build/
+
+# Archivos de navegador/caché
+.cache/
