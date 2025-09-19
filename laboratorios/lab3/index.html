@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Eventos UTP</title>
+    <meta name="description" content="Portal oficial de eventos UTP - Universidad Tecnológica de Panamá">
+    <meta name="keywords" content="UTP, eventos, universidad, Panamá, estudiantes">
+    <meta name="author" content="Jonatan Santiago Vergara Birminghan">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Eventos UTP">
+    <meta property="og:description" content="Descubre los próximos eventos en la UTP">
+    <meta property="og:image" content="logo-utp.png">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="./favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="assets/logo-utp.png" alt="Logo UTP">
+        <nav>
+            <ul>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#registro">Registro</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <section id="multimedia">
+                <h1>Portal de Eventos UTP</h1>
+                <h2>Multimedia de Eventos</h2>
+                <video controls width="100%" poster="assets/evento-foto.jpg">
+                    <source src="assets/evento-video.mp4" type="video/mp4">
+                    <source src="assets/evento-video.webm" type="video/webm">
+                    Tu navegador no soporta el video. Mira el <a href="assets/evento-video.mp4">video aquí</a>.
+                </video>
+                <br>
+                <audio controls>
+                    <source src="assets/patria.mp3" type="audio/mp3">
+                    <source src="assets/patria.ogg" type="audio/ogg">
+                    Tu navegador no soporta el audio.
+                </audio>
+                <br>
+                <iframe 
+                    src="https://www.google.com/maps?q=Universidad+Tecnológica+de+Panamá&output=embed"
+                    width="100%" height="250" style="border:0; border-radius:10px; margin-top:1rem;"
+                    allowfullscreen="" loading="lazy" title="Ubicación Campus UTP"></iframe>
+            </section>
+            <section id="eventos">
+                <h2>Eventos Académicos</h2>
+                <article>
+                    <h2>Feria Tecnológica 2025</h2>
+                    <div class="event-meta">Fecha: 15/10/2025 | Hora: 9:00 AM | Lugar: Auditorio Principal</div>
+                    <p>Descubre los últimos avances tecnológicos presentados por estudiantes y empresas aliadas.</p>
+                    <progress value="75" max="100">75% de cupos ocupados</progress>
+                    <meter value="8.5" min="0" max="10">8.5 de 10 estrellas</meter>
+                </article>
+                <article>
+                    <h2>Congreso de Ingeniería</h2>
+                    <div class="event-meta">Fecha: 22/10/2025 | Hora: 2:00 PM | Lugar: Salón 101</div>
+                    <p>Charlas y talleres con expertos nacionales e internacionales en ingeniería.</p>
+                    <progress value="60" max="100">60% de cupos ocupados</progress>
+                    <meter value="9.2" min="0" max="10">9.2 de 10 estrellas</meter>
+                </article>
+                <h2>Eventos Deportivos</h2>
+                <article>
+                    <h2>Maratón UTP</h2>
+                    <div class="event-meta">Fecha: 29/10/2025 | Hora: 7:00 AM | Lugar: Campus Central</div>
+                    <p>Participa en la maratón anual y demuestra tu espíritu deportivo.</p>
+                    <progress value="90" max="100">90% de cupos ocupados</progress>
+                    <meter value="7.8" min="0" max="10">7.8 de 10 estrellas</meter>
+                </article>
+                <h2>Eventos Culturales</h2>
+                <article>
+                    <h2>Festival de Talentos</h2>
+                    <div class="event-meta">Fecha: 05/11/2025 | Hora: 6:00 PM | Lugar: Teatro UTP</div>
+                    <p>Disfruta de presentaciones artísticas y culturales de la comunidad universitaria.</p>
+                    <progress value="50" max="100">50% de cupos ocupados</progress>
+                    <meter value="8.0" min="0" max="10">8.0 de 10 estrellas</meter>
+                </article>
+                <article>
+                    <h2>Semana de la Ciencia</h2>
+                    <div class="event-meta">Fecha: 12/11/2025 | Hora: 10:00 AM | Lugar: Laboratorios UTP</div>
+                    <p>Experimenta y aprende con actividades científicas interactivas.</p>
+                    <progress value="40" max="100">40% de cupos ocupados</progress>
+                    <meter value="7.5" min="0" max="10">7.5 de 10 estrellas</meter>
+                </article>
+            </section>
+            <figure>
+                <img src="assets/evento-foto.jpg" alt="Foto de evento pasado UTP">
+                <figcaption>Graduación UTP 2024 - Un evento inolvidable para nuestros estudiantes.</figcaption>
+            </figure>
+            <section id="registro">
+                <h2>Registro a Eventos</h2>
+                <form>
+                    <fieldset>
+                        <legend>Información Personal</legend>
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="cedula">Cédula *</label>
+                        <input type="text" id="cedula" name="cedula" required pattern="^\d{2}-\d{3,4}-\d{4}$" placeholder="Ej: 8-888-8888">
+                        <label for="nacimiento">Fecha de nacimiento *</label>
+                        <input type="date" id="nacimiento" name="nacimiento" required min="1900-01-01" max="2025-12-31">
+                        <label for="correo">Correo institucional *</label>
+                        <input type="email" id="correo" name="correo" required placeholder="usuario@utp.ac.pa">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" pattern="^\d{8}$" placeholder="Ej: 60001234">
+                        <label for="color">Color favorito</label>
+                        <input type="color" id="color" name="color" value="#667eea">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Selección de Evento</legend>
+                        <label for="evento">Evento</label>
+                        <select id="evento" name="evento" required>
+                            <option value="">Seleccione un evento</option>
+                            <option value="feria">Feria Tecnológica</option>
+                            <option value="congreso">Congreso de Ingeniería</option>
+                            <option value="maraton">Maratón UTP</option>
+                            <option value="festival">Festival de Talentos</option>
+                            <option value="ciencia">Semana de la Ciencia</option>
+                        </select>
+                        <label for="facultad">Facultad</label>
+                        <input list="facultades" name="facultad" id="facultad">
+                        <datalist id="facultades">
+                            <option value="Ingeniería de Sistemas">
+                            <option value="Ingeniería Civil">
+                            <option value="Ingeniería Industrial">
+                            <option value="Ingeniería Eléctrica">
+                            <option value="Ingeniería Mecánica">
+                        </datalist>
+                        <label for="hora">Hora preferida</label>
+                        <input type="time" id="hora" name="hora">
+                        <label for="interes">Nivel de interés (1-10)</label>
+                        <input type="range" id="interes" name="interes" min="1" max="10" value="5">
+                        <label for="acompanantes">Cantidad de acompañantes</label>
+                        <input type="number" id="acompanantes" name="acompanantes" min="0" max="10" value="0">
+                    </fieldset>
+                    <button type="submit">Registrarse</button>
+                </form>
+            </section>
+            <section id="faq">
+                <h2>Preguntas Frecuentes</h2>
+                <details>
+                    <summary>¿Cómo me registro para un evento?</summary>
+                    <p>Completa el formulario de registro y recibirás un correo de confirmación.</p>
+                </details>
+                <details>
+                    <summary>¿Puedo asistir a más de un evento?</summary>
+                    <p>Sí, puedes registrarte en todos los eventos que desees.</p>
+                </details>
+                <details>
+                    <summary>¿Los eventos tienen costo?</summary>
+                    <p>La mayoría de los eventos son gratuitos para estudiantes UTP.</p>
+                </details>
+            </section>
+        </div>
+        <aside>
+            <h3>Eventos Destacados</h3>
+            <ul>
+                <li><strong>Feria Tecnológica</strong> - 15/10/2025</li>
+                <li><strong>Maratón UTP</strong> - 29/10/2025</li>
+                <li><strong>Festival de Talentos</strong> - 05/11/2025</li>
+            </ul>
+            <h3>Noticias</h3>
+            <ul>
+                <li>¡Nuevo laboratorio de innovación inaugurado!</li>
+                <li>Inscripciones abiertas para el Congreso de Ingeniería.</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Universidad Tecnológica de Panamá &copy; 2025 | Contacto: info@utp.ac.pa</p>
+        <p>
+            <a href="https://www.facebook.com/utppanama" style="color:#fff;">Facebook</a> |
+            <a href="https://twitter.com/utppanama" style="color:#fff;">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>

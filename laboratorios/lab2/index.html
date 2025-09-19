@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonatan Vergara | Página Personal</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="container">
+            <img src="images/Jonatan.png" alt="Foto de Jonatan" style="width:120px; border-radius:50%; margin: 0 auto; display:block;">
+            <h1>Jonatan Santiago Vergara Birminghan</h1>
+            <p><em>Estudiante universitario en la <strong><a href="https://utp.ac.pa/">Universidad Tecnológica de Panamá</a></strong></em></p>
+            <p>Soy programador en formación, me gustan los videojuegos y adoro el café.</p>
+            <p>Me interesa el desarrollo web y aprender nuevos lenguajes de programación. Disfruto colaborar en proyectos y compartir conocimientos con otros estudiantes.</p>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="container">
+            <h2>Mis Habilidades</h2>
+            <ul>
+                <li>HTML5 y CSS3</li>
+                <li>JavaScript básico</li>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+                <li>Aprendizaje autónomo</li>
+            </ul>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="container">
+            <h2>Proyectos Realizados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Enlace</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mi Portafolio</td>
+                        <td>Página web personal con información y proyectos.</td>
+                        <td><a href="https://github.com/Arthurink">Ver en GitHub</a></td>
+                    </tr>
+                    <tr>
+                        <td>Calculadora JS</td>
+                        <td>Calculadora básica hecha en JavaScript.</td>
+                        <td><a href="#">Ver proyecto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="contacto" class="container">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jonatan Santiago Vergara Birminghan | <a href="mailto:jonatan.vergara@utp.ac.pa">jonatan.vergara@utp.ac.pa</a></p>
+    </footer>
+</body>
+</html>

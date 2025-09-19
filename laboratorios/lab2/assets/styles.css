@@ -1,0 +1,256 @@
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header y navegación */
+header {
+    width: 100%;
+    margin-bottom: 32px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.08);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+nav a:hover,
+nav a:focus {
+    background: rgba(255, 255, 255, 0.18);
+    color: #e0e7ff;
+    text-decoration: none;
+}
+
+/* Contenedor principal */
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+/* Imagen de perfil */
+.container img {
+    display: block;
+    margin: 0 auto 24px auto;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
+    border: 4px solid #e0e7ff;
+}
+
+/* Títulos y textos */
+.container h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.container p {
+    color: #444;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container em {
+    color: #764ba2;
+    font-style: normal;
+    font-weight: 600;
+}
+.container a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.container a:hover,
+.container a:focus {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* Lista de habilidades */
+.container ul {
+    margin: 0 auto 16px auto;
+    max-width: 400px;
+    color: #555;
+    font-size: 1rem;
+    padding-left: 1.2em;
+}
+.container ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Tabla de proyectos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+}
+thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.85rem;
+}
+td {
+    padding: 16px;
+    border-bottom: 1px solid #f1f3f5;
+}
+tbody tr {
+    transition: background-color 0.3s ease;
+}
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Formulario de contacto */
+label {
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+input, textarea {
+    padding: 12px 16px;
+    border: 2px solid #e1e8ed;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background: white;
+    width: 100%;
+    margin-bottom: 16px;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+textarea {
+    resize: vertical;
+}
+
+/* Botón del formulario */
+.btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 18px 0;
+    font-size: 1rem;
+}
+footer a {
+    color: #e0e7ff;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #fff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 12px;
+    }
+    header {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    nav ul {
+        gap: 16px;
+    }
+    nav a {
+        font-size: 0.98rem;
+        padding: 7px 10px;
+    }
+}
