@@ -50,7 +50,7 @@ button:hover {
     border-radius: 10px;
 }
 
-footer p {
+footer > p {
     text-align: center;
     background-color: black;
     color: white;
