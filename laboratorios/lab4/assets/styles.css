@@ -23,7 +23,7 @@ p {
     font-style: italic;
 }
 
-section {
+#intro {
     background: yellow;
     padding: 15px 15px 15px 15px;
 }
