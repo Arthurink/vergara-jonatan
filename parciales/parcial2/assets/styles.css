@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  background-color: #111;
+  color: #ff7f7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  border: 2px solid #ff7f7f;
+  border-radius: 25px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero .flag {
+  width: 250px;
+  height: 150px;
+  border: 1px solid #ff7f7f;
+  border-radius: 8px;
+}
+
+.flags-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.flag-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag-box .flag {
+  width: 120px;
+  height: 80px;
+  border: 1px solid #ff7f7f;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.flag-box p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.mexico {
+  background: linear-gradient(to right, green 33.33%, white 33.33% 66.66%, red 66.66%);
+  position: relative;
+}
+.mexico::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.peru {
+  background: linear-gradient(to right, red 33.33%, white 33.33% 66.66%, red 66.66%);
+}
+
+.honduras {
+  background: linear-gradient(to bottom,#2f67c6 33.33%,#ffffff 33.33% 66.66%,#2f67c6 66.66%);
+  position: relative;
+  border-radius: 6px;
+}
+
+.honduras::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background: #1f57b3;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow:
+    -28px 0 0 #1f57b3,
+    -14px 0 0 #1f57b3,
+     14px 0 0 #1f57b3,
+     28px 0 0 #1f57b3;
+}
+
+.nicaragua {
+  background: linear-gradient(to bottom, #0073cf 33.33%, white 33.33% 66.66%, #0073cf 66.66%);
+  position: relative;
+}
+.nicaragua::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  background-color: #0073cf;
+  border-radius: 50%;
+}
