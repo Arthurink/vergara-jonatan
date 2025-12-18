@@ -1,9 +1,9 @@
 # 🎮 PokéFinder - Aplicación Web de Búsqueda y Comparación de Pokémon
 
 ## 👤 Autor
-**Nombre del Estudiante:** Jonatan Vergara  
-**Carrera:** Ingeniería de Software  
-**Institución:** [Tu Universidad]  
+**Nombre del Estudiante:** Jonatan Vergara
+**Carrera:** Lic. En desarrolo y gestion de software 
+**Institución:** Universidad Tecnológica de Panamá
 **Fecha:** Diciembre 2025
 
 ---
@@ -225,30 +225,6 @@ python -m http.server 8000
 - Sincronización automática entre páginas
 - Corazón rojo (❤️) indicador
 - Agregar/quitar desde búsqueda, histórico, favoritos y VS battle
-
----
-
-## ✅ Checklist de Funcionalidades
-
-### Nivel Básico (60 pts) ✅
-- [x] Búsqueda por nombre o ID
-- [x] Visualización de tarjeta (imagen, tipos, stats)
-- [x] Sistema de caché (24h TTL)
-- [x] Badge de origen (API/CACHÉ)
-- [x] Histórico de búsquedas (últimos 50)
-- [x] Sistema de favoritos persistente
-
-### Nivel Intermedio (25 pts) ✅
-- [x] Cadena evolutiva completa
-- [x] Búsqueda por habilidad
-- [x] Lista de Pokémon con habilidad
-- [x] Descripción de habilidad en español
-
-### Nivel Avanzado (15 pts) ✅
-- [x] VS Battle comparador
-- [x] Comparación visual de stats
-- [x] Sistema de efectividad de tipos
-- [x] Determinación automática de ganador
 
 ---
 
