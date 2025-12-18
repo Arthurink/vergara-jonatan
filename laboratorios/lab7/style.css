@@ -1,0 +1,52 @@
+* { box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: #0b1220; /* fondo oscuro */
+  color: #e5e7eb;      /* texto claro */
+}
+
+.app { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+
+.app-header { position: relative; margin-bottom: 18px; }
+.app-header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+.count-badge {
+  position: absolute; right: 0; top: 0;
+  background: #0ea66b; color: #eafff5;
+  border-radius: 14px; padding: 4px 10px; font-size: 12px; font-weight: 700;
+}
+
+.card { background:#0f172a; border:1px solid #27324a; border-radius: 10px; padding: 18px 18px 14px; margin: 16px 0; box-shadow: 0 2px 12px rgba(0,0,0,.25) inset; }
+.card-title { margin: 0 0 14px; font-size: 14px; color:#cdd5e1; font-weight: 700; }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.field { display:flex; flex-direction:column; gap:6px; }
+.field-span-2 { grid-column: span 2; }
+.field label { font-size: 12px; color:#9aa2b1; }
+.field input, .field select {
+  background:#0b1220; border:1px solid #2b3955; color:#e5e7eb;
+  border-radius: 8px; padding: 10px 12px; outline: none;
+}
+.field input::placeholder { color:#6b7280; }
+
+.form-actions { grid-column: span 2; display:flex; align-items:center; gap:10px; margin-top: 6px; }
+.btn { background:#1f2937; color:#e5e7eb; border:1px solid #334155; padding:8px 12px; border-radius:8px; cursor:pointer; transition:transform .1s, box-shadow .1s, background-color .2s; }
+.btn:hover { transform: translate(-1px,-1px); box-shadow: 0 4px 10px rgba(0,0,0,.3); }
+.btn:active { transform: translate(1px,1px); box-shadow: none; }
+.btn-success { background:#16a34a; border-color:#198f47; color:#eafff5; }
+.btn-success:hover { background:#169a47; }
+.btn-danger { background:#7f1d1d; border-color:#a11d1d; }
+
+.hint { margin-left: auto; font-size: 12px; color:#94a3b8; }
+
+.toolbar { display:flex; justify-content:flex-start; margin: 6px 0 10px; }
+
+.table-wrapper { overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; }
+.table thead th { text-align:left; font-size:12px; color:#9aa2b1; font-weight:700; padding:10px 12px; border-bottom:1px solid #23304a; }
+.table tbody td { padding:12px; border-bottom:1px solid #1d2841; font-size:14px; color:#d7dce3; }
+.table tbody tr:last-child td { border-bottom: none; }
+.table .actions { display:flex; gap:8px; }
+.empty-row td { text-align:center; color:#8a93a7; padding:20px; }
+
+.note { margin-top: 10px; font-size: 12px; color:#8a93a7; }
