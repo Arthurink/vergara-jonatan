@@ -1,9 +1,17 @@
 # 🎮 PokéFinder - Aplicación Web de Búsqueda y Comparación de Pokémon
 
-## 👤 Autor
-**Nombre del Estudiante:** Jonatan Vergara  
-**Carrera:** Ingeniería de Software  
-**Institución:** [Tu Universidad]  
+## 👤 Autores
+
+**Nombre del Estudiante:** Jonatan Santiago Vergara Birminghan
+**Correo institucional:**  jonatan.vergara@utp.ac.pa
+**GitHub:** Arthurink
+
+**Nombre del Estudiante:** Cristhian Octavio Guevara Sanchez
+**Correo institucional:** cristhian.guevara1@utp.ac.pa
+**GitHub:** Crissthiann30
+
+**Carrera:** Lic. En desarrolo y gestion de software 
+**Institución:** Universidad Tecnológica de Panamá
 **Fecha:** Diciembre 2025
 
 ---
@@ -228,30 +236,6 @@ python -m http.server 8000
 
 ---
 
-## ✅ Checklist de Funcionalidades
-
-### Nivel Básico (60 pts) ✅
-- [x] Búsqueda por nombre o ID
-- [x] Visualización de tarjeta (imagen, tipos, stats)
-- [x] Sistema de caché (24h TTL)
-- [x] Badge de origen (API/CACHÉ)
-- [x] Histórico de búsquedas (últimos 50)
-- [x] Sistema de favoritos persistente
-
-### Nivel Intermedio (25 pts) ✅
-- [x] Cadena evolutiva completa
-- [x] Búsqueda por habilidad
-- [x] Lista de Pokémon con habilidad
-- [x] Descripción de habilidad en español
-
-### Nivel Avanzado (15 pts) ✅
-- [x] VS Battle comparador
-- [x] Comparación visual de stats
-- [x] Sistema de efectividad de tipos
-- [x] Determinación automática de ganador
-
----
-
 ## 📝 Notas de Desarrollo
 
 ### Optimizaciones Implementadas
@@ -285,18 +269,18 @@ python -m http.server 8000
 
 ## 📞 Contacto y Soporte
 
-**Repositorio GitHub:** https://github.com/Arthurink/vergara-jonatan
+**Repositorio GitHub:** https://github.com/Arthurink/Poke-Finder
 
 **GitHub Pages (Demostración en Vivo):** https://arthurink.github.io/Poke-Finder/
 
-**Email:** jonatan.vergara@utp.ac.pa
+**Email:** jonatan.vergara@utp.ac.pa, cristhian.guevara1@utp.ac.pa
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto fue desarrollado como parte de evaluación académica en la materia [Nombre de la Materia].  
-Derechos reservados © 2025 Jonatan Vergara.
+Este proyecto fue desarrollado como parte de evaluación académica en la materia desarrollo de software V.  
+Derechos reservados © 2025 Jonatan Vergara, Cristhian Guevara.
 
 **¡Gracias por usar PokéFinder! ⚡🔥💧**  
 **¡Que disfrutes comparando y atrapando Pokémon! 🎮**
