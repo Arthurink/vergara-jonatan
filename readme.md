@@ -34,7 +34,7 @@
 
 ## 🌐 Link a Demostración en Vivo
 
-**GitHub Pages:** https://arthurink.github.io/Poke-Finder/
+**GitHub Pages:** https://arthurink.github.io/vergara-jonatan/
 
 ---
 
@@ -132,7 +132,7 @@ python -m http.server 8000
 ├── 📄 vs.html                 # Página de VS Battle
 ├── 🎨 shared.css              # Estilos compartidos (Brutalist)
 ├── 📜 shared.js               # Lógica JavaScript (módulo IIFE)
-├── 📖 README.md               # Este documento (entregable)
+├── 📖 readme.md               # Este documento (entregable)
 └── 📁 screenshots/            # Carpeta para capturas
     ├── 1-busqueda.png
     ├── 2-evolucion.png
@@ -269,9 +269,9 @@ python -m http.server 8000
 
 ## 📞 Contacto y Soporte
 
-**Repositorio GitHub:** https://github.com/Arthurink/Poke-Finder
+**Repositorio GitHub:** https://github.com/Arthurink/vergara-jonatan
 
-**GitHub Pages (Demostración en Vivo):** https://arthurink.github.io/Poke-Finder/
+**GitHub Pages (Demostración en Vivo):** https://arthurink.github.io/vergara-jonatan/
 
 **Email:** jonatan.vergara@utp.ac.pa, cristhian.guevara1@utp.ac.pa
 
