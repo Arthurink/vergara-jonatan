@@ -338,10 +338,15 @@
 
                     // Si no encadenamos y hay una siguiente etapa, agrega flecha al final
                     if (idx < stages.length - 1 && !chained) {
-                        // Obtener condición para la primera evolución de la siguiente etapa
-                        const nextStageFirstEvo = stages[idx + 1][0];
-                        const condition = this.formatEvolutionTrigger(nextStageFirstEvo.details);
-                        const conditionHTML = condition ? `<span class="evolution-condition">${condition}</span>` : '';
+                        // Regla: si la siguiente etapa tiene múltiples evoluciones (ramas), no mostrar condición
+                        const nextStage = stages[idx + 1];
+                        let conditionHTML = '';
+                        if (nextStage.length === 1) {
+                            // Obtener condición solo cuando hay una evolución única
+                            const nextStageFirstEvo = nextStage[0];
+                            const condition = this.formatEvolutionTrigger(nextStageFirstEvo.details);
+                            conditionHTML = condition ? `<span class="evolution-condition">${condition}</span>` : '';
+                        }
                         rowHTML += `<div class="evolution-arrow">→${conditionHTML}</div>`;
                     }
 

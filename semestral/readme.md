@@ -26,18 +26,7 @@
 
 ## 🌐 Link a Demostración en Vivo
 
-**GitHub Pages:** [aquí coloca tu link de GitHub Pages]  
-```
-Ejemplo: https://tuusuario.github.io/vergara-jonatan/semestral/
-```
-
-**Pasos para habilitarlo:**
-1. Ve a tu repositorio en GitHub
-2. Settings → Pages
-3. Selecciona "Deploy from a branch"
-4. Branch: main (o la rama que uses)
-5. Carpeta: `/root` o `/docs` (según dónde esté el proyecto)
-6. Guarda y espera ~1-2 minutos
+**GitHub Pages:** https://arthurink.github.io/Poke-Finder/
 
 ---
 
@@ -187,8 +176,7 @@ python -m http.server 8000
 ├── 📄 vs.html                 # Página de VS Battle
 ├── 🎨 shared.css              # Estilos compartidos (Brutalist)
 ├── 📜 shared.js               # Lógica JavaScript (módulo IIFE)
-├── 📖 README.md               # Especificación del proyecto (original)
-├── 📖 readme2.md              # Este documento (entregable)
+├── 📖 readme.md              # Este documento (entregable)
 └── 📁 screenshots/            # Carpeta para capturas
     ├── 1-busqueda.png
     ├── 2-evolucion.png
@@ -363,28 +351,6 @@ python -m http.server 8000
 
 Este proyecto fue desarrollado como parte de evaluación académica en la materia [Nombre de la Materia].  
 Derechos reservados © 2025 Jonatan Vergara.
-
-**Restricciones de uso:**
-- No usar frameworks (React, Vue, Angular, etc.)
-- No usar jQuery (solo vanilla JavaScript)
-- No usar Bootstrap (CSS personalizado)
-- No copiar código sin citar fuente
-
----
-
-## 🏆 Evaluación
-
-### Rubrica de Evaluación
-| Criterio | Excelente | Bueno | Regular | Deficiente |
-|----------|-----------|-------|---------|------------|
-| Funcionalidad | Todas funcionan | Funciones principales | Algunas no operan | Incompleto |
-| Diseño Brutalist | 100% cumple | Mayoría aplicada | Parcialmente | No cumple |
-| Código Limpio | Bien organizado | Organizado | Parcialmente | Desorganizado |
-| Manejo de Errores | Todos manejados | Mayoría | Algunos | Sin manejo |
-
-### Puntuación Estimada: **100/100 pts** ✅
-
----
 
 **¡Gracias por usar PokéFinder! ⚡🔥💧**  
 **¡Que disfrutes comparando y atrapando Pokémon! 🎮**
