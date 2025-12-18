@@ -95,74 +95,22 @@ python -m http.server 8000
 ## 📸 Capturas de Pantalla
 
 ### [1] Búsqueda Principal
-```
-📍 UBICACIÓN: Coloca una captura mostrando:
-  - Selector de tipo de búsqueda (Pokémon/Habilidad)
-  - Campo de búsqueda completo
-  - Tarjeta de Pokémon con imagen, tipos, habilidades
-  - Estadísticas con barras centradas
-  - Badge de origen (API/CACHÉ) en esquina
-  
-📂 Directorio: /semestral/screenshots/1-busqueda.png
-```
+![Búsqueda Principal](./screenshots/1-busqueda.png)
 
 ### [2] Cadena Evolutiva
-```
-📍 UBICACIÓN: Coloca una captura mostrando:
-  - Línea evolutiva horizontal/vertical
-  - Sprites de cada etapa con flechas
-  - Condiciones de evolución (Nv. X, Item, etc.)
-  - Click en evolución busca ese Pokémon
-  
-📂 Directorio: /semestral/screenshots/2-evolucion.png
-```
+![Cadena Evolutiva](./screenshots/2-evolucion.png)
 
 ### [3] Búsqueda por Habilidad
-```
-📍 UBICACIÓN: Coloca una captura mostrando:
-  - Tarjeta de habilidad con descripción
-  - Grid de Pokémon con esa habilidad
-  - Scroll en el contenedor
-  - Badge con el ID de la habilidad
-  
-📂 Directorio: /semestral/screenshots/3-habilidad.png
-```
+![Búsqueda por Habilidad](./screenshots/3-habilidad.png)
 
 ### [4] Histórico
-```
-📍 UBICACIÓN: Coloca una captura mostrando:
-  - Lista de búsquedas recientes (más reciente primero)
-  - Botones de favorito (corazón) y delete (papelera)
-  - Botón "BORRAR TODO" en la parte superior/inferior
-  - Estado vacío si no hay búsquedas
-  
-📂 Directorio: /semestral/screenshots/4-historico.png
-```
+![Histórico](./screenshots/4-historico.png)
 
 ### [5] Favoritos
-```
-📍 UBICACIÓN: Coloca una captura mostrando:
-  - Lista de Pokémon favoritos
-  - Badge con corazón rojo (❤️)
-  - Botones delete por item
-  - Botón "BORRAR TODO"
-  - Estado vacío si no hay favoritos
-  
-📂 Directorio: /semestral/screenshots/5-favoritos.png
-```
+![Favoritos](./screenshots/5-favoritos.png)
 
 ### [6] VS Battle
-```
-📍 UBICACIÓN: Coloca una captura mostrando:
-  - Dos campos de búsqueda lado a lado
-  - Tarjetas VS con sprites y nombres
-  - Resultado de batalla (ganador resaltado)
-  - Comparación de stats con barras
-  - Análisis de ventajas de tipo (efectividad)
-  - Botón "¡BATALLAR!" en el centro
-  
-📂 Directorio: /semestral/screenshots/6-vs-battle.png
-```
+![VS Battle](./screenshots/6-vs-battle.png)
 
 ---
 
@@ -337,13 +285,11 @@ python -m http.server 8000
 
 ## 📞 Contacto y Soporte
 
-**Repositorio GitHub:** [aquí coloca tu URL del repositorio]  
-**Ejemplo:** https://github.com/tuusuario/vergara-jonatan
+**Repositorio GitHub:** https://github.com/Arthurink/vergara-jonatan
 
-**GitHub Pages (Demostración en Vivo):** [aquí coloca tu URL de GitHub Pages]  
-**Ejemplo:** https://tuusuario.github.io/vergara-jonatan/semestral/
+**GitHub Pages (Demostración en Vivo):** https://arthurink.github.io/Poke-Finder/
 
-**Email:** [tu-email@universidad.edu.co]
+**Email:** jonatan.vergara@utp.ac.pa
 
 ---
 
