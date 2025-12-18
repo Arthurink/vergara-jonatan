@@ -176,7 +176,7 @@ python -m http.server 8000
 ├── 📄 vs.html                 # Página de VS Battle
 ├── 🎨 shared.css              # Estilos compartidos (Brutalist)
 ├── 📜 shared.js               # Lógica JavaScript (módulo IIFE)
-├── 📖 readme.md              # Este documento (entregable)
+├── 📖 README.md               # Este documento (entregable)
 └── 📁 screenshots/            # Carpeta para capturas
     ├── 1-busqueda.png
     ├── 2-evolucion.png
