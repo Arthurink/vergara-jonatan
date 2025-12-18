@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 8 - Registro de Estudiantes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Registro de Estudiantes</h1>
+      <span id="badgeCount" class="count-badge">0 estudiantes</span>
+    </header>
+
+    <section class="card">
+      <h2 class="card-title">Nuevo estudiante</h2>
+      <form id="studentForm" class="form-grid" novalidate>
+        <div class="field">
+          <label for="nombre">Nombre*</label>
+          <input id="nombre" type="text" placeholder="Ana" required />
+        </div>
+        <div class="field">
+          <label for="apellido">Apellido*</label>
+          <input id="apellido" type="text" placeholder="González" required />
+        </div>
+        <div class="field field-span-2">
+          <label for="email">Email*</label>
+          <input id="email" type="email" placeholder="ana@example.com" required />
+        </div>
+        <div class="field">
+          <label for="edad">Edad*</label>
+          <input id="edad" type="number" min="18" max="100" placeholder="18" required />
+        </div>
+        <div class="field">
+          <label for="carrera">Carrera*</label>
+          <select id="carrera" required>
+            <option value="" selected>— Selecciona —</option>
+            <option>Ingeniería de Software</option>
+            <option>Ingeniería en Sistemas</option>
+            <option>Diseño UX</option>
+            <option>Redes y Telecomunicaciones</option>
+          </select>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-success">Agregar estudiante</button>
+          <button type="button" id="limpiar" class="btn">Limpiar</button>
+          <span class="hint">Los campos marcados con * son obligatorios.</span>
+        </div>
+      </form>
+    </section>
+
+    <div class="toolbar">
+      <button id="eliminarTodo" class="btn btn-danger">Borrar todo</button>
+    </div>
+
+    <section class="card">
+      <h2 class="card-title">Estudiantes</h2>
+      <div class="table-wrapper">
+        <table class="table" id="tabla">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Email</th>
+              <th>Edad</th>
+              <th>Carrera</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <tr class="empty-row"><td colspan="7">No hay resultados.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
