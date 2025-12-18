@@ -1,7 +1,15 @@
 # 🎮 PokéFinder - Aplicación Web de Búsqueda y Comparación de Pokémon
 
-## 👤 Autor
-**Nombre del Estudiante:** Jonatan Vergara
+## 👤 Autores
+
+**Nombre del Estudiante:** Jonatan Santiago Vergara Birminghan
+**Correo institucional:**  jonatan.vergara@utp.ac.pa
+**GitHub:** Arthurink
+
+**Nombre del Estudiante:** Cristhian Octavio Guevara Sanchez
+**Correo institucional:** cristhian.guevara1@utp.ac.pa
+**GitHub:** Crissthiann30
+
 **Carrera:** Lic. En desarrolo y gestion de software 
 **Institución:** Universidad Tecnológica de Panamá
 **Fecha:** Diciembre 2025
@@ -261,18 +269,18 @@ python -m http.server 8000
 
 ## 📞 Contacto y Soporte
 
-**Repositorio GitHub:** https://github.com/Arthurink/vergara-jonatan
+**Repositorio GitHub:** https://github.com/Arthurink/Poke-Finder
 
 **GitHub Pages (Demostración en Vivo):** https://arthurink.github.io/Poke-Finder/
 
-**Email:** jonatan.vergara@utp.ac.pa
+**Email:** jonatan.vergara@utp.ac.pa, cristhian.guevara1@utp.ac.pa
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto fue desarrollado como parte de evaluación académica en la materia [Nombre de la Materia].  
-Derechos reservados © 2025 Jonatan Vergara.
+Este proyecto fue desarrollado como parte de evaluación académica en la materia desarrollo de software V.  
+Derechos reservados © 2025 Jonatan Vergara, Cristhian Guevara.
 
 **¡Gracias por usar PokéFinder! ⚡🔥💧**  
 **¡Que disfrutes comparando y atrapando Pokémon! 🎮**
