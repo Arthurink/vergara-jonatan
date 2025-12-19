@@ -1212,7 +1212,7 @@ body {
 
 .comparison-row {
     display: grid;
-    grid-template-columns: 50px 120px 1fr 50px;
+    grid-template-columns: 50px 1fr 50px;
     align-items: center;
     gap: 12px;
 }
@@ -1236,9 +1236,18 @@ body {
 }
 
 .comparison-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-weight: 900;
     font-size: 12px;
     text-align: center;
+    background: var(--color-white);
+    padding: 4px 12px;
+    border: 3px solid var(--color-dark);
+    z-index: 2;
+    pointer-events: none;
 }
 
 .comparison-bar-container {
@@ -1246,20 +1255,27 @@ body {
     background: var(--color-light);
     border: 4px solid var(--color-dark);
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
 }
 
 .comparison-bar-left {
     background: var(--color-secondary);
     border-right: 2px solid var(--color-dark);
-    margin-left: auto;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    height: 100%;
 }
 
 .comparison-bar-right {
     background: var(--color-accent);
     border-left: 2px solid var(--color-dark);
-    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    height: 100%;
 }
 
 .score-details {

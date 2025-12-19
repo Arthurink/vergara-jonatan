@@ -831,6 +831,12 @@
                 // Renderizar VS cards
                 this.renderVsCards();
 
+                // Mostrar las tarjetas VS
+                const vsCardsContainer = document.getElementById('vsCards');
+                if (vsCardsContainer) {
+                    vsCardsContainer.classList.remove('hidden');
+                }
+
                 // Habilitar/Deshabilitar botón de batalla según selección
                 if (this.currentVsPokemon[1] && this.currentVsPokemon[2]) {
                     battleBtn.disabled = false;
@@ -1069,10 +1075,10 @@
                 return `
                     <div class="comparison-row">
                         <span class="comparison-value-left ${p1IsHigher ? 'higher-stat' : ''}">${p1Stat}</span>
-                        <span class="comparison-label">${displayName}</span>
                         <div class="comparison-bar-container">
                             <div class="comparison-bar-left" style="width: ${p1Percent}%"></div>
                             <div class="comparison-bar-right" style="width: ${p2Percent}%"></div>
+                            <span class="comparison-label">${displayName}</span>
                         </div>
                         <span class="comparison-value-right ${p2IsHigher ? 'higher-stat' : ''}">${p2Stat}</span>
                     </div>
