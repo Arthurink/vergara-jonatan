@@ -1066,8 +1066,10 @@
                 const p1Stat = p1.stats.find(s => s.stat.name === statName).base_stat;
                 const p2Stat = p2.stats.find(s => s.stat.name === statName).base_stat;
                 const maxStat = Math.max(p1Stat, p2Stat);
-                const p1Percent = (p1Stat / maxStat) * 50;
-                const p2Percent = (p2Stat / maxStat) * 50;
+                // Margen desde el centro: evita que la barra más alta toque el borde
+                const MAX_HALF = 45; // porcentaje máximo por lado (de 50%)
+                const p1Percent = (p1Stat / maxStat) * MAX_HALF;
+                const p2Percent = (p2Stat / maxStat) * MAX_HALF;
                 const displayName = statNames[statName] || statName.toUpperCase();
                 const p1IsHigher = p1Stat > p2Stat;
                 const p2IsHigher = p2Stat > p1Stat;
